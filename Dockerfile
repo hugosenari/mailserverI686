@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM i686:ubuntu
 
 MAINTAINER Tautvydas Andrikys <esminis@esminis.lt>
 
