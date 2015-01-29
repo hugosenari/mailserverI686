@@ -1,6 +1,8 @@
 FROM i686:ubuntu
 
-MAINTAINER Tautvydas Andrikys <esminis@esminis.lt>
+MAINTAINER Hugo Ribeiro <hugosenari@gmail.com>
+
+# COPY from https://bitbucket.org/esminis/mailserver/
 
 RUN apt-get update; apt-get install -y debconf-utils openssl libssl-dev rsyslog make gcc wget supervisor libhttp-daemon-ssl-perl libhtml-tidy-perl libio-stringy-perl libdate-calc-perl libmime-lite-html-perl libhtml-template-perl libdigest-sha-perl libdigest-perl libyaml-perl libstring-random-perl libcrypt-cracklib-perl
 
